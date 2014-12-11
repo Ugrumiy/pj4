@@ -1,0 +1,391 @@
+html,
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+    margin: 0;
+    padding: 0;
+}
+h4
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+
+    margin: 0;
+
+    color: #4e4e4e;
+}
+.layout-wrapper
+{
+    width: 1170px;
+    margin: auto;
+}
+.clearfix
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+
+
+
+/*Header */
+
+
+header
+{
+    height: 123px;
+
+    background: #e7e7e7 url('../img/header-background.jpg');
+    -webkit-box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+            box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+}
+.top-menu ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    background: url('../img/logo-main.png') no-repeat 0 73%;
+}
+.top-menu ul li
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+
+    display: inline-block;
+
+    margin: 0 10px;
+    padding-top: 22px;
+
+    text-transform: uppercase;
+
+    color: #4e4e4e;
+}
+.top-menu ul li:first-child
+{
+    margin-left: 730px;
+}
+.top-menu ul li:last-child
+{
+    margin-right: 0;
+}
+.top-menu ul li a
+{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+
+    text-decoration: none;
+
+    color: #4e4e4e;
+}
+.top-menu ul li a.active
+{
+    color: #57c4ac;
+}
+.top-menu ul li a:hover
+{
+    color: #fff;
+}
+
+
+
+ /*Main */
+
+
+.slider-background
+{
+    height: 600px;
+
+    background: url('../img/slider-background.jpg') repeat-x;
+}
+.slide-container
+{
+    position: relative;
+
+    height: 600px;
+}
+.slide1
+{
+    width: 1170px;
+    height: 403px;
+    padding-top: 197px;
+}
+.slide1 h1,
+.slide1 h2
+{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 35px;
+
+    margin: 0;
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+.slide1 h1
+{
+    font-size: 40px;
+
+    color: #fff;
+}
+.slide1 h2
+{
+    font-size: 32px;
+
+    margin-bottom: 53px;
+
+    color: #a8a8a8;
+}
+.slide1 .btn
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+
+    margin-left: 515px;
+    padding: 15px 26px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border-radius: 5px;
+    background-color: #3f8dbf;
+    -webkit-box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+            box-shadow: inset 0 -5px 0 0 rgba(0,0,0,.04);
+}
+.services
+{
+    border-bottom: 2px solid #dcdcdc;
+}
+.services-item
+{
+    float: left;
+
+    width: 242px;
+    padding: 180px 25px 53px 25px;
+
+    text-align: center;
+
+    background: red;
+}
+.services-item:nth-child(2),
+.services-item:nth-child(3)
+{
+    width: 243px;
+}
+.services-item:nth-child(1)
+{
+    background: url('../img/services1.png') no-repeat 50% 25%;
+}
+.services-item:nth-child(2)
+{
+    background: url('../img/services2.png') no-repeat 50% 25%;
+}
+.services-item:nth-child(3)
+{
+    background: url('../img/services3.png') no-repeat 50% 25%;
+}
+.services-item:nth-child(4)
+{
+    background: url('../img/services4.png') no-repeat 50% 25%;
+}
+.services-item a
+{
+    text-decoration: none;
+}
+.services-item a:hover h4,
+.services-item a:hover p
+{
+     color: #57c4ac;
+}
+.services-item  p
+{
+    line-height: 24px;
+
+    margin: 0;
+
+    color: #616161;
+}
+.section-title
+{
+    margin: 48px 0 12px 0;
+}
+.latest-works h4 a
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #4e4e4e;
+}
+.latest-works-item
+{
+    float: left;
+
+    width: 380px;
+    min-height: 460px;
+}
+.latest-works-item:nth-child(2)
+{
+    margin: 0 15px;
+}
+.latest-works-item:hover h4 a
+{
+    color: #57c4ac;
+}
+.latest-works-item h4 a
+{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 40px;
+
+    text-align: center;
+    text-transform: none;
+}
+.latest-works-item p.under-title
+{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+
+    margin: 0 0;
+
+    color: #b5b5b5;
+}
+.latest-works-item  p
+{
+    color: #5c5c5c;
+}
+.testimonial-background
+{
+    background: #efefef;
+}
+.testimonial
+{
+    min-height: 230px;
+}
+.testimonial-quotes
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    font-weight: bold;
+
+    margin: 0;
+
+    text-align: center;
+
+    color: #dcdcdc;
+}
+.testimonial-text
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+
+    margin: 0 0;
+    margin-top: -30px;
+
+    text-align: center;
+
+    color: #a1a1a1;
+}
+
+
+
+
+ /* Footer */
+
+
+footer
+{
+    border-top: 9px solid #161616;
+    background: #202020;
+}
+footer a{
+    text-decoration: none;
+    color:#cacaca;
+}
+footer a:hover{
+    text-decoration: none;
+    color:#cacaca;
+}
+.footer-item
+{
+    float: left;
+
+    width: 242px;
+    padding: 35px 0 30px 0;
+}
+.twitter-feed,
+.popular-posts
+{
+    width: 243px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.footer-item  h4
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+
+    text-transform: uppercase;
+}
+.footer-item  p
+{
+    line-height: 24px;
+
+    color: #cacaca;
+}
+.get-in-touch .address,
+.get-in-touch .phone,
+.get-in-touch .email
+{
+    padding-left: 25px;
+}
+.get-in-touch .address
+{
+    background: url('../img/footer-sprites.png') no-repeat -15px -8px;
+}
+.get-in-touch .phone
+{
+    background: url('../img/footer-sprites.png') no-repeat -15px -50px;
+}
+.get-in-touch .email
+{
+    background: url('../img/footer-sprites.png') no-repeat -15px -87px;
+}
+.twitter-feed p
+{
+    padding-left: 25px;
+
+    background: url('../img/footer-sprites.png') no-repeat -15px -130px;
+}
+time
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.copyright
+{
+    padding: 45px 0;
+
+    color: #cacaca;
+    border-top: 2px solid #353535;
+}
